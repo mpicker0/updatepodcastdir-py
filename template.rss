@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>My Radio Programs</title>
+    <link>http://mpickering.homeip.net/phpwiki/index.php/updatepodcastdir.py</link>
+    <description>Things Mike is listening to</description>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <webMaster>mpicker0@yahoo.com</webMaster>
+    <ttl>120</ttl>
+  </channel>
+</rss>
