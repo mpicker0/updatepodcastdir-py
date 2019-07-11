@@ -4,7 +4,7 @@ rsstemplate: /home/mpickering/podcast/template.rss
 rssoutfile: /var/www/localhost/htdocs/podcast/shows.rss
 
 [web]
-urlprefix: http://mpickering.homeip.net/podcast/
+urlprefix: https://home.mpickering.net/podcast/
 
 [misc]
 maxitems: 15

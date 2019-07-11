@@ -7,8 +7,15 @@ Description
 
 Requirements
 ------------
-* [Python](http://www.python.org)
-* [eyeD3](http://eyed3.nicfit.net/)
+* [Python 3](https://www.python.org)
+* [mutagen](https://mutagen.readthedocs.io/en/latest/)
+
+Setup
+-----
+
+Run the following to install the dependencies (make sure your virtual environment is active, if using one):
+
+    pip install --requirement=requirements.txt
 
 Operation
 ---------
@@ -54,7 +61,7 @@ rsstemplate: /home/mpickering/podcast/template.rss
 rssoutfile: /var/www/localhost/htdocs/podcast/shows.rss
 
 [web]
-urlprefix: http://mpickering.homeip.net/podcast/
+urlprefix: https://home.mpickering.net/podcast/
 
 [misc]
 maxitems: 15
@@ -66,7 +73,7 @@ deleteold: true
   * `rsstemplate` is the path to the RSS template (described above).  It doesn't need to be web-accessible.
   * `rssoutfile` is the filename where the RSS feed will be written, once it has been generated.  This file should be accessible to your web server, since that's what web users will subscribe to.
 * `[web]` contains addresses that will be resolved by users on the web
-  * `urlprefix` is the prefix to attach to MP3 files. If you had a file called `myfile.mp3` and used the `urlprfix` value from above, the URL presented to users would be <a href="http://mpickering.homeip.net/podcast/myfile.mp3">http://mpickering.homeip.net/podcast/myfile.mp3</a>
+  * `urlprefix` is the prefix to attach to MP3 files. If you had a file called `myfile.mp3` and used the `urlprfix` value from above, the URL presented to users would be <a href="https://home.mpickering.net/podcast/myfile.mp3">https://home.mpickering.net/podcast/myfile.mp3</a>
 * `[misc]` contains other settings
   * `maxitems` specifies the maximum number of links you want in your podcast.  If you have more than this number of MP3/AAC files in the MP3 directory, the oldest ones will be omitted from the feed.
   * `deleteold` says that in addition to excluding items beyond `maxitems` from the generated feed, you also want to delete them from the MP3 directory.

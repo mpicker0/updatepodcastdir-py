@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <title>My Radio Programs</title>
-    <link>http://mpickering.homeip.net/phpwiki/index.php/updatepodcastdir.py</link>
+    <link>https://github.com/mpicker0/updatepodcastdir-py</link>
     <description>Things Mike is listening to</description>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
